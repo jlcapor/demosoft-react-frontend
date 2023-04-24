@@ -1,0 +1,68 @@
+body, html {
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+  color: #555e58;
+  text-transform: capitalize;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(223, 223, 223);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar {
+  width: 100vw;
+  height: 55px;
+  padding: 10px 36px;
+  background-color: rgba(0, 0, 0, 0.932);
+  position: fixed;
+  z-index: 6;
+  left: 0px;
+  top: 0px;
+}
+.logo{
+  width: 100px;
+  float: left;
+  margin-top: -22px;
+}
+.username{
+  width: 10vw;
+right: 100px;
+position: absolute;
+}
+
+.navbar a {
+  float: left;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 100px;
+  transition-duration: 0.5s;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  font-size: 23px;
+}
+
+/* Current/active navbar link */
+.active:hover {
+  background-color: #b6b6b67a;
+}
